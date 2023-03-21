@@ -7,10 +7,11 @@ public class Node {
     public Node getNodeNv() {
         return nodeNv;
     }
-
+    
     public void setNodeNv(Node nodeNv) {
         nodeNv = nodeNv;
     }
+
     public Node(int nombre){
         this.nombre= nombre;
         this.nodeNv= null;

@@ -19,5 +19,14 @@ public class MyListLinked {
         premierElement=newNode;
         size++;
     }
+    public  void listDisplay()
+    {
+        Node nodeAfficher=premierElement;
+        while (nodeAfficher!=null)
+        {
+            System.out.println(nodeAfficher.getNombre());
+            nodeAfficher=nodeAfficher.getNodeNv();
+        }
+    }
 
 }
