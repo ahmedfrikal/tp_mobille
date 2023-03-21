@@ -1,7 +1,6 @@
 package org.example.Exercise2;
 
 public class MyListLinked {
-<<<<<<< HEAD
 
     //Taille de tableau
     private int size;
@@ -30,6 +29,4 @@ public class MyListLinked {
         }
     }
 
-=======
->>>>>>> parent of b2cebfa (Ajouter des attribut de class et methode get pour size de tableau)
 }

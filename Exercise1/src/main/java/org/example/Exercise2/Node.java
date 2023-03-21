@@ -12,6 +12,10 @@ public class Node {
         nodeNv = nodeNv;
     }
 
+    public int getNombre() {
+        return nombre;
+    }
+
     public Node(int nombre){
         this.nombre= nombre;
         this.nodeNv= null;
