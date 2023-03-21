@@ -8,7 +8,9 @@ public class plaindrome {
        if (nombre > 0) {
            if (nombre > 0 && nombre < 10) {
                nombreReverse = nombre;
-           } else {
+           }
+           else
+           {
                while (nombre > 0) {
                    resteNombre = (nombre % 10) + resteNombre * 10;
                    //nombreReverse=resteNombre+(resteNombre*10);
@@ -18,12 +20,14 @@ public class plaindrome {
                    System.out.println(nombre);
                }
            }
+           if (nombre == nombreReverse) {
+               return true;
+           } else {
+               return false;
+           }
        }
+       return res;
 
-       if (nombre == nombreReverse) {
-           return true;
-       } else {
-           return false;
-       }
+
    }
 }
