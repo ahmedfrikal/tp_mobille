@@ -10,5 +10,14 @@ public class MyListLinked {
         premierElement=null;
     }
     public  int getSize(){return size;}
-    
+
+    public void AjouterAvant(int data)
+    {
+        Node newNode=new Node(data);
+        newNode.setNodeNv(newNode.getNodeNv());
+        newNode.setNodeNv(premierElement);
+        premierElement=newNode;
+        size++;
+    }
+
 }
